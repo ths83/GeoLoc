@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t"
+                android:text="Camera"
+                android:background="@color/colorPrimary"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopActivityButton"
+            android:layout_toRightOf="@id/t"
+            android:onClick="onStopActivity"
+            android:text="End"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/letsgo"
+                android:layout_toRightOf="@id/stopActivityButton"
+                android:text="GO"
+                android:textStyle="bold"
+                android:onClick="goMap"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/distanceView"
+            android:layout_below="@id/stopActivityButton"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/averagespeed"
+                android:layout_below="@id/stopActivityButton"
+                android:layout_toRightOf="@+id/distanceView"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/stopActivityButton"
+            android:background="@drawable/ic_setting_light"
+            android:onClick="selectMapType"
+            android:id="@+id/maptype"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <fragment android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context=".Business.Map.CExcursionMap"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+</LinearLayout>

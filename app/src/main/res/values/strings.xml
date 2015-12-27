@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">GeoLoc</string>
+    <string name="ok">Valider</string>
+    <string name="back">Retour</string>
+
+
+    <string name="sign_up_phone">N° de téléphone:</string>
+    <string name="sign_up_password">Mot de passe:</string>
+    <string name="sign_up_pwconfirmation">Confirmer le mot de passe:</string>
+    <string name="sign_up_name">Nom vu par les utilisateurs:</string>
+
+    <string name="log_in_welcome">Bienvenue sur GeoLoc !</string>
+    <string name="log_in_sign_in">S\'inscrire</string>
+
+    <string name="main_menu_join_expedition">Sorties</string>
+    <string name="main_menu_create_expedition">Créer </string>
+    <string name="main_menu_history">Historique</string>
+    <string name="main_menu_contact_list">Contacts</string>
+    <string name="main_menu_settings">Options</string>
+    <string name="title_activity_select">selectActivity</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_dgfdghjk">dgfdghjk</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="create_excursion_name">Nom de la sortie:</string>
+    <string name="create_excursion_private">Privé</string>
+    <string name="create_excursion_participants">Ajouter Participants</string>
+    <string name="create_excursion_map">Ajouter Waypoints</string>
+    <string name="create_excursion_type_sortie">Type de l\'excursion</string>
+    <string name="create_excursion_date">Date de début:</string>
+    <string name="create_excursion_time">Heure de début:</string>
+
+    <string name="join_excursion_search">Chercher une excursion:</string>
+    <string name="join_excursion_full">Exclure nb. max atteint</string>
+
+    <string name="lost_passwd"><u>Mot de passe oublié?</u></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_add_contacts">AddContactsActivity</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="provider_disabled" />
+    <string name="provider_enabled" />
+    <string name="new_location" />
+    <string name="number_phone">Numéro de téléphone</string>
+    <string name="password">Mot de passe</string>
+    <string name="activity_name">Nom de l\'activité</string>
+    <string name="confirm_passwd">Confirmer le mot de passe</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="title_activity_test">test</string>
+    <string name="log_in">se connecter</string>
+    <string name="suscribe">s\'inscrire</string>
+    <string name="title_activity_user_parameters">UserParameters</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoLoc</string>
+    <string name="back">Back</string>
+    <string name="create_excursion_date">Start date:</string>
+    <string name="create_excursion_map">Add a waypoint</string>
+    <string name="create_excursion_name">Activity name:</string>
+    <string name="create_excursion_participants">Add people</string>
+    <string name="create_excursion_private">Private Activity</string>
+    <string name="create_excursion_time">Start time:</string>
+    <string name="create_excursion_type_sortie">Activity type</string>
+    <string name="number_phone">Numéro de téléphone</string>
+    <string name="password">Mot de passe</string>
+    <string name="activity_name">Activity Name</string>
+    <string name="action_settings">Setting</string>
+    <string name="confirm_passwd">Confirm password</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="log_in">se connecter</string>
+    <string name="suscribe">s\'inscrire</string>
+    <string name="join_excursion_full"></string>
+    <string name="log_in_sign_in">Sign up</string>
+    <string name="lost_passwd"><u>Forgotten password?</u></string>
+    <string name="log_in_welcome">Welcome on GeoLoc!</string>
+    <string name="main_menu_contact_list"></string>
+    <string name="main_menu_create_expedition">Create</string>
+    <string name="main_menu_history">History</string>
+    <string name="main_menu_join_expedition">Excursions</string>
+    <string name="ok">Validation</string>
+    <string name="sign_up_name">Name:</string>
+    <string name="sign_up_phone">Number phone</string>
+    <string name="sign_up_password">Password:</string>
+    <string name="sign_up_pwconfirmation">Confirm password</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_user_parameters"></string>
+</resources>
